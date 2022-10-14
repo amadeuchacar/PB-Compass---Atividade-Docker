@@ -12,6 +12,8 @@ services:
         MYSQL_DATABASE: wordpress #banco de dados
       ports:
         - 3308:3306 #portas que vão ser expostas
+      networks:
+        - wordpress-network
     wordpress: #serviço do wordpress
       image: wordpress:latest #imagem do mysql
       volumes: #definir os volumes
@@ -26,3 +28,8 @@ services:
         - 80:80 #portas onde o wordpress é exposto
       depends_on:
         - db #depende do funcionamento do db
+      networks:
+        - wordpress-network
+networks: #definindo a rede interna
+  wordpress-network:
+    driver: bridge
