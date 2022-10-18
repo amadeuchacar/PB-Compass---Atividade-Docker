@@ -32,6 +32,11 @@ services:
       - db #depende do funcionamento do db
     networks:
       - wordpress-network
+
 networks: #definindo a rede interna
   wordpress-network:
     driver: bridge
+
+volumes:
+  db_data:
+  wp_data:
