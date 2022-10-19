@@ -57,7 +57,7 @@ wsl.exe
 ```ruby
 docker compose up -d
 ```
-### *Este comando irá criar e executar em segundo plano os containers de Wordpress e Mysql especificados*
+### *Este comando cria e executa em segundo plano os containers de Wordpress e Mysql especificados*
 
 ## 4. Acessar o Wordpress
 ### 4.1 Após a execução, o Wordpress estará rodando na porta especificada no arquivo docker-compose, no caso do exemplo, na porta 80
