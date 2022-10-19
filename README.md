@@ -8,7 +8,7 @@
 *Para a realização da atividade proposta é necessário que o Docker Desktop esteja funcionando perfeitamente na máquina*
 
 ## Requisitos
-- WSL 2 (Linux que roda dentro do windowws)
+- WSL 2 (Linux que roda dentro do windows)
 - Caso necessário, habilitar a virtualização na BIOS
 - Windows 11 de 64 bits: Home ou Pro versão 21H2 ou superior, ou Enterprise ou Education versão 21H2 ou superior
 - Windows 10 de 64 bits: Home ou Pro 21H1 (build 19043) ou superior, ou Enterprise ou Education 20H2 (build 19042) ou superior
