@@ -65,11 +65,24 @@ docker compose up -d
 ### 4.3 Configurar o Wordpress: idioma, nome de usuário e senha
 ### 4.4 Instalar o Wordpress
 ### 4.5 Acessá-lo
+### 4.6 É possível acessar a página de login nesse endereço: http://localhost:80/wp-admin/
+
+## 5. Alterando nome do endereço do site 
+### 5.1 Acesse o diretório: C:\Windows\System32\drivers\etc\hosts
+### 5.2 Execute o hosts como administrador para poder realizar as alterações
+### 5.3 Adicione um endereço de acordo com o IP do Docker Desktop
+### 5.4 Exemplo: 192.168.0.194 exemplo.com
+### 5.5 Salve e acesse http://exemplo.com:80/wp-admin/
+
+## 6. Acessando o Banco de Dados 
+### 6.1 É possível acessar o MySQL com o phpMyAdmin contido no docker-compose deste repositório 
+### 6.2 Acesse: http://exemplo.com:8080 
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Algumas observações 
 - O comando *docker compose down* remove os containers e a rede padrão mas preserva a base de dados do wordpress
-- O comando *docker compose down –volumes* remove também a base de dados
+- O comando *docker compose down –-volumes* remove também a base de dados
 
 
 
