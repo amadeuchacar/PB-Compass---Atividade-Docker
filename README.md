@@ -73,7 +73,6 @@ docker compose up -d
 ### 5.3 Adicione um endereço de acordo com o IP do Docker Desktop
 ### 5.4 Exemplo: 192.168.0.194 exemplo.com
 ### 5.5 Salve e acesse http://exemplo.com:80
-### 5.6 Acessar a tela de login: http://exemplo.com:80/wp-admin/
 
 ## 6. Acessando o Banco de Dados 
 ### 6.1 É possível acessar o MySQL com o phpMyAdmin contido no docker-compose deste repositório 
